@@ -298,6 +298,7 @@
 	}
 	else
 	{
+                didEdit = NO; // prevents "saving" an empty data before dismissing
 		[self dismissModalViewControllerAnimated:YES];
 		//NSLog(@"ok");
 	}
